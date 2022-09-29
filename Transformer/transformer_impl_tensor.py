@@ -1,7 +1,7 @@
 import numpy as np
 import matplotlib.pyplot as plt
 import tensorflow as tf
-``
+
 class PositionalEncoding(tf.keras.layers.Layer):
   def __init__(self, position, d_model):
     super(PositionalEncoding, self).__init__()
